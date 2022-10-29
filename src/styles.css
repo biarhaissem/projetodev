@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@media screen and (max-width: 1025px) {
+    /* Here are some changes*/
+  }
+
+ /* Mobile device styles */
+  @media screen and (max-width: 480px) {
+        /* Here are some changes*/
+  }
+
+
+
+
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CADASTRO | CupCakePop</title>
+    <meta name="description" content="Trabalho da matéria de Dev Web da Faculdade Unimetrocamp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+       <!-- Menu -->
+       <nav class="navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar fluid" href="home.html">CupCakePop</a>   
+           
+                <div class="navbar collapse">
+                    <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+                    <a class="nav-link" aria-current="page" href="bem_vindo.html">BEM-VINDO</a>
+                    <a class="nav-link" aria-current="page" href="cardapio.html">CARDÁPIO</a>
+                    <a class="nav-link" aria-current="page" href="sobre_nos.html">SOBRE NÓS</a>
+                    <a class="nav-link active" aria-current="page" href="cadastro.html">CADASTRO</a>
+                </div>
+            </div>
+    </nav>
+
+  <div class="container">
+    <div class="row py-3 px-5" id="divCadastro">
+      <!-- DIV IMG -->
+      <div class="col-12">
+        <p class="fs-4 fw-bold text-center text-uppercase">Cadastro</p>
+        <form>
+          <!-- INPUT NOME E SOBRENOME  -->
+          <div class="row grupoForm">
+            <div class="form-group col-md-6">
+              <label for="nomeFormInput">Nome:</label>
+              <input type="text" class="form-control" id="nomeFormInput" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="sobrenomeFormInput">Sobrenome:</label>
+              <input type="text" class="form-control" id="sobrenomeFormInput" required>
+            </div>
+          </div>
+          <!-- INPUT EMAIL -->
+          <div class="row grupoForm">
+            <div class="form-group col-md-4">
+              <label for="emailFormInput">Email:</label>
+              <input type="email" class="form-control" id="emailFormInput" required>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="telefoneFormInput">Telefone:</label>
+              <input type="tel" class="form-control" id="telefoneFormInput" required maxlength="11">
+              
+            </div>
+            <div class="form-group col-md-4">
+              <label for="dataNascFormInput">Data Nascimento:</label>
+              <input type="date" class="form-control" id="dataNascFormInput">
+            </div>
+          </div>
+          <!-- INPUT ENDEREÇO  -->
+          <div class="form-group grupoForm">
+            <label for="enderecoFormInput">Endereço:</label>
+            <input type="text" class="form-control" id="enderecoFormInput" required>
+          </div>
+          <!-- INPUT CIDADE, UF, CEP -->
+          <div class="row grupoForm">
+            <div class="form-group col-md-5">
+              <label for="cidadeFormInput">Cidade:</label>
+              <input type="text" class="form-control" id="cidadeFormInput" required>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="estadoFormInput">Estado:</label>
+              <select id="estadoFormInput" class="form-control" required>
+                <option value="" selected>Escolha...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+            </div>
+            <div class="form-group col-md-3">
+              <label for="cepFormInput">CEP:</label>
+              <input type="text" class="form-control" id="cepFormInput" required>
+              
+            </div>
+          </div>
+          <!-- INPUT MENSAGEM -->
+          <div class="form-group grupoForm">
+            <label for="mensagemFormInput">Sua mensagem:</label>
+            <textarea class="form-control" id="mensagemFormInput" rows="3" cols="3"></textarea>
+          </div>
+          <!-- INPUT ACEITAR ENVIO INFO  -->
+          <div class="form-check grupoForm">
+            <input class="form-check-input" type="checkbox" value="" id="checkboxFormInput" required>
+            <label class="form-check-label" for="checkboxFormInput">
+              Concordo em compartilhar minhas informações aqui fornecidas
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary" id="btEnviar">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3 footer">
+    © 2022 Copyright: CupCakePop
+  </div>
+  <!-- Copyright -->
