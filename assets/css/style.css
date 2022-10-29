@@ -1,0 +1,185 @@
+@font-face {
+    font-family: museo-slab;
+    src: url(../fonts/Museo_Slab_500.otf);
+}
+
+:root {
+    --back_color: #f9d195;
+    --font_color: rgb(104, 57, 26);
+    --font_museo: normal normal bold 28px/1.4em museo-slab-w01-100, museo-slab-w05-100, serif;
+    --container_color: #fffcf4;
+}
+
+#containerHome {
+    background-color: var(--back_color)!important;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.container p, a {
+    color: var(--font_color);
+    font-family: museo-slab;
+}
+
+.navbar, .footer, .container {
+    background-color: var(--container_color)!important;
+}
+
+body {
+    background-color: var(--back_color);
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.grupoForm {
+    padding-bottom: 1em;
+}
+
+.form-control {
+    border-color: slategrey;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px gray;
+}
+
+#tituloCardapio {
+    border-bottom: 0.01rem dashed black;
+}
+
+.preco {
+    font-style: italic;
+}
+
+.cardapio {
+    padding: 2.5rem;
+}
+
+.c-cardapio {
+    border: none;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-title {
+    font: var(--font_museo);
+    white-space: normal;
+}
+
+.d_membro {
+    margin-top: 3rem;
+}
+
+.d_membro>.card {
+    background: rgba(0, 0, 0, 0);
+}
+
+.d_membro>img {
+    height: 100%;
+    width: auto;
+}
+
+.d_membro>.card>p {
+    font-weight: bold;
+}
+
+.galeria {
+    border-color: white !important;
+    border-style: dashed !important;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.sociais>a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sociais>img {
+    object-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.sociais {
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+}
+
+#contato {
+    border-top: 0.01rem solid black;
+}
+
+#btEnviar {
+    background-color: var(--font_color);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    #divCadastro {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+    .grupoForm>.form-group,
+    .form-check {
+        padding-bottom: 0.5rem !important;
+    }
+
+    .imgGaleria>div>img {
+        padding: 1rem !important;
+    }
+
+    .imgGaleria {
+        padding: 0rem !important;
+    }
+
+    .sociais {
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+/* Tablets Ipads */
+@media (max-width: 1024px) {
+    .d_membro>.card {
+        width: 100% !important;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .container {
+        margin-top: 5rem !important;
+    }
+}
