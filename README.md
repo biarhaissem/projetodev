@@ -1,27 +1,41 @@
-# Legal
+# CupCakePop - projetodev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Este projeto foi criado com Angular CLI, versão 14.2.6.
 
-## Development server
+Adicionamos o Bootstrap no arquivo "angular.json" utilizando o "node_modules/bootstrap/dist/css/bootstrap.css".
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o projeto
 
-## Code scaffolding
+Construímos um site anteriormente com auxílio do Bootstrap.
+Através do modelo do site construído iniciamos nosso projeto com Angular CLI.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Procedimento
 
-## Build
+Instalamos a versão mais recente do Node.js.
+Abrimos o cmd e utilizamos o comando npm install -g @angular/cli.
+Fizemos download dos arquivos.
+Na pasta do projeto no cmd, utilizamos o comando npm install para instalar todas as dependências.
+Ainda na pasta do projeto, utilizamos o comando ng serve --open no cmd para inicializar o projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Desenvolvimento
 
-## Running unit tests
+Nosso primeiro passo para iniciar a construção do site com framework foi criar uma "navbar" para determinar as rotas das páginas do site dentro do arquivo "app.component.html".
+Para cada página criamos um componente.
+Depois, construímos as rotas dentro da pasta "app-routing.module.ts" utilizando os nomes dos componentes criados para fazermos os "paths" correspondentes.
+Depois, fomos adicionando as linhas de código para cada página e acompanhando a evolução pelo `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Projeto pronto
 
-## Running end-to-end tests
+Com o nosso projeto pronto, fizemos o download do Github para Windows através da página "http//gitforwindows.org/".
+Depois de instalado, criamos um repositório no Github e adicionamos os arquivos do projeto.
+Em seguida, seguimos um tutorial através de comandos pelo cmd para darmos sequência no procedimento para criação da hospedagem do nosso site no Github Pages.
+Por último, no Github, clicamos no "Pages" e o link de nosso site foi gerado.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Componentes do nosso grupo:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Aline Aparecida Vicente de Souza - 202203033719
+## Beatriz Helena Pedro - 202211215081
+## Fabrício Mascarenhas Ribeiro - 202212039521 
+## Laura Santos Honório - 202202355046
+## Letícia de Carvalho Alves - 202204222302
+## Priscila Oliveira da Cruz - 202212086048
