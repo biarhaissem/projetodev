@@ -1,17 +1,17 @@
 # projetodev CupCakePop
 
-Este projeto foi criado com Angular CLI, versão 14.2.6.
+Este projeto foi criado com [Angular CLI, versão 14.2.6].
 
 Adicionamos o Bootstrap no arquivo "angular.json" utilizando o "node_modules/bootstrap/dist/css/bootstrap.css".
 
 ## Sobre o projeto
 
-- Construímos um site anteriormente com auxílio do Bootstrap.
-- Através do modelo do site construído iniciamos nosso projeto com Angular CLI.
+- Construímos um site anteriormente com auxílio do [Bootstrap].
+- Através do modelo do site construído iniciamos nosso projeto com [Angular CLI].
 
 ## Procedimento
 
-- Instalamos a versão mais recente do Node.js.
+- Instalamos a versão mais recente do [Node.js].
 - Abrimos o cmd e utilizamos o comando npm install -g @angular/cli.
 - Fizemos download dos arquivos.
 - Na pasta do projeto no cmd, utilizamos o comando npm install para instalar todas as dependências.
