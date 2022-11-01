@@ -29,7 +29,7 @@ Adicionamos o Bootstrap no arquivo "angular.json" utilizando o "node_modules/boo
 - Com o nosso projeto pronto, fizemos o download do Github para Windows através da página "http//gitforwindows.org/".
 - Depois de instalado, criamos um repositório no Github e adicionamos os arquivos do projeto.
 - Em seguida, seguimos um tutorial através de comandos pelo cmd para darmos sequência no procedimento para criação da hospedagem do nosso site no Github Pages.
-- Por último, no Github, clicamos no "Pages" e o link de nosso site foi gerado.
+- Por último, no Github, clicamos no "Pages" e o link do nosso site foi gerado.
 
 ## Nosso grupo:
 
